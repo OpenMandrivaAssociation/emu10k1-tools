@@ -1,6 +1,6 @@
 %define	version	0.9.4
 %define	name	emu10k1-tools
-%define	release	%mkrel 6
+%define	release	%mkrel 7
 
 Summary:	The emu-tools work with the emu10k1 driver include in the kernel
 Name:		%{name}
