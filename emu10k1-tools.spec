@@ -9,7 +9,7 @@ Release:	%{release}
 License:	GPL
 Group:		System/Configuration/Hardware
 Source0:	http://prdownloads.sourceforge.net/emu10k1/emu-tools-%{version}.tar.bz2
-Url:		http://sourceforge.net/projects/emu10k1
+Url:		https://sourceforge.net/projects/emu10k1
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
 BuildRequires: kernel-source-latest
 Patch0:		emu-tools-0.9.4-mdkconf.patch.bz2
