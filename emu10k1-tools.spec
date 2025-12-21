@@ -11,6 +11,7 @@ Group:		System/Configuration/Hardware
 Source0:	http://prdownloads.sourceforge.net/emu10k1/emu-tools-%{version}.tar.bz2
 Url:		https://sourceforge.net/projects/emu10k1
 Buildroot:	%{_tmppath}/%{name}-%{version}-%{release}-buildroot
+BuildRequires:	make
 BuildRequires: kernel-source-latest
 Patch0:		emu-tools-0.9.4-mdkconf.patch.bz2
 Patch1:		%{name}-0.9.4-gcc3.3-fix.patch.bz2
